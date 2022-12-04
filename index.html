@@ -5,24 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main Page</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
     <!--body-->
-<body>
+<body class ="body">
+   
     <!--header-->
-    <header>
-        <a href ="/">
-            <h3> Web Studio</h3>
-        </a>
-        <ul>
-            <li> <a href =""> Studio </a> </li>
-            <li><a href ="/portfolio.html"> Portfolio </a></li>
-            <li><a href =""> Contact </a></li>
+    <header class ="header">
+        <!--logo-->
+            <h2 class="logo"><span class = "web-logo">Web</span> <span class ="studio-logo">Studio</span></h2>
+        <ul class="navigation">
+            <li class="studio-link"> <a href ="/studio.html">Studio </a> </li>
+            <li class ="portfolio-link"><a href ="/portfolio.html">Portfolio </a></li>
+            <li class = "contact-link"><a href ="/contact.html">Contact </a></li>
         </ul>
         <address>
              <ul>
-                <li><a href ="info@devstudio.com">info@devstudio.com</a></li>
-                <li>+11 (000) 111-11-11</li>
+                <li class="mail"><a href ="info@devstudio.com">info@devstudio.com</a></li>
+                <li class="phone">+11 (000) 111-11-11</li>
             </ul>
         </address>
     </header>   
@@ -30,10 +30,10 @@
     <main>
         <!--banner-->
     <div >
-    <section >
-        <h1> Effective solutions <br>For Your Business</h1>
-       <button><a href = ""> Order Service</a></button>
-    </section>
+    <footer class ="dark-card">
+        <h1 class="dark-text"> Effective solutions <br>For Your Business</h1>
+       <button> Order Service</button>
+    </footer>
     </div>
         <!--description-->
     <section>
@@ -70,7 +70,7 @@
         </ul>
     </section>  
         <!--team-->
-    <section>
+    <section class ="team-card">
         <h2> Our Team</h2>
         <ul>
             <li><figure><img src = "./images/img1.jpg" alt ="Product Designer" width="264"> 
